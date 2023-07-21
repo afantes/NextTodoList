@@ -28,13 +28,18 @@ In summary, the utility of this To-Do List project is to provide a simple yet po
 
 ### Next.js
 - **Pages & Routing**: Next.js offers a file-based approach to routing. Each file in the `pages` directory corresponds to a route. For example, the `pages/index.js` file is the `/` route, and the `pages/about.js` file corresponds to the `/about` route.
+  
 - **CSS Modules**: Next.js supports CSS modules out of the box. This is a way to compartmentalize styles to avoid conflicts. In this project, I used several `.module.css` files to define styles specific to different components.
+  
 - **Built-in support for ES6+**: Next.js supports the latest JavaScript features. In this project, I used several ES6 features, like JavaScript modules, object destructuring, React hooks, etc.
 
 ### React.js
 - **React Hooks**: React hooks are a new addition to React that allow you to use state and other React features without writing a class. In this project, I used several hooks, like `useState`, `useEffect`, and `useContext`.
+  
 - **Context API**: Context API is a feature of React that allows you to share values between different components without having to pass them explicitly through all levels of the component tree. In this project, I created a `TaskContext` that allows sharing the state of tasks and associated functions between different components.
+  
 - **Functional Components**: All components in this project are functional components, which are easier to read and test, and can use React hooks.
+  
 - **Styled-components**: It's a library that allows you to use CSS in JavaScript to style components. In this project, I used `styled-components` to define styles for several components.
 
 ### Other
