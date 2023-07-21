@@ -23,3 +23,32 @@ The utility of this To-Do List project is mainly to provide a tool that assists 
 - **Cost-effectiveness**: The application is free to use, providing a cost-effective solution for personal task management.
 
 In summary, the utility of this To-Do List project is to provide a simple yet powerful tool for personal productivity and task management. It aims to help users stay organized and manage their tasks effectively.
+
+## Technologies and Features Used 💻
+
+### Next.js
+- **Pages & Routing**: Next.js offers a file-based approach to routing. Each file in the `pages` directory corresponds to a route. For example, the `pages/index.js` file is the `/` route, and the `pages/about.js` file corresponds to the `/about` route.
+- **CSS Modules**: Next.js supports CSS modules out of the box. This is a way to compartmentalize styles to avoid conflicts. In this project, I used several `.module.css` files to define styles specific to different components.
+- **Built-in support for ES6+**: Next.js supports the latest JavaScript features. In this project, I used several ES6 features, like JavaScript modules, object destructuring, React hooks, etc.
+
+### React.js
+- **React Hooks**: React hooks are a new addition to React that allow you to use state and other React features without writing a class. In this project, I used several hooks, like `useState`, `useEffect`, and `useContext`.
+- **Context API**: Context API is a feature of React that allows you to share values between different components without having to pass them explicitly through all levels of the component tree. In this project, I created a `TaskContext` that allows sharing the state of tasks and associated functions between different components.
+- **Functional Components**: All components in this project are functional components, which are easier to read and test, and can use React hooks.
+- **Styled-components**: It's a library that allows you to use CSS in JavaScript to style components. In this project, I used `styled-components` to define styles for several components.
+
+### Other
+- **Local Storage**: I used the browser's `localStorage` API to persist the state of tasks between the user's different sessions. When a user adds, marks as completed, or deletes a task, the state is updated both in the task context and in `localStorage`.
+
+## Project Structure 🗂
+- **Components**: Contains all React components used in the application.
+- **Contexts**: Contains the task context that is used to manage the global state of tasks.
+- **Pages**: Contains the application's pages.
+
+## How to Get Started 🚀
+1. Clone this repository to your local environment.
+2. Run `npm install` to install all necessary dependencies.
+3. Run `npm run dev` to start the application in development mode.
+
+## Contribution 🤝
+Contributions to this project are welcome.
